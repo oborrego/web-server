@@ -2,8 +2,8 @@ const path = require('path');
 const express = require('express');
 const hbs = require('hbs');
 
-const geocode = require('../../weather/geocode.js');
-const forecast = require('../../weather/weather.js');
+const geocode = require('/public/geocode.js');
+const forecast = require('/public/weather.js');
 
 // Define paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public');
